@@ -1,21 +1,2 @@
-/* Sidebar fixed styling */
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 250px; /* Adjust the width as needed */
-    background-color: #fff; /* Sidebar background */
-    overflow-y: auto; /* In case sidebar content exceeds the viewport */
-    border-right: 1px solid #ddd; /* Optional: Add a border to separate sidebar */
-    z-index: 10;
-  }
-  
-  /* Main content wrapper */
-  .main-content {
-    margin-left: 250px; /* Matches the width of the sidebar */
-    flex: 1;
-    overflow-y: auto; /* Allow scrolling for the main content */
-    height: 100vh; /* Ensures full viewport height */
-  }
+
   

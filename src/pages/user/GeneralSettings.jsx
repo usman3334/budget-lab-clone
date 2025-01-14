@@ -3,7 +3,7 @@ import Sidebar from '../../components/Sidebar';
 import Header from '../../components/Header';
 import InputField from '../../components/InputField';
 import Dropdown from '../../components/Dropdown';
-import axiosInstance from '../../services/axiosInstance'; // Ensure this is correctly configured
+import axiosInstance from '../../services/axiosInstance';
 
 const GeneralSettings = () => {
   const [formData, setFormData] = useState({

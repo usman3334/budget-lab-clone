@@ -98,23 +98,17 @@ function SignIn() {
           Don't have an account?{' '}
           <button onClick={() => navigate('/signup')} className="font-semibold text-indigo-600 hover:text-indigo-500">Sign up</button>
         </p>
+        <p className="text-center mt-4">
+          <button
+            onClick={() => navigate('/reset-password')}
+            className="font-semibold text-indigo-600 hover:text-indigo-500"
+          >
+            Reset Password
+          </button>
+        </p>
       </div>
     </div>
   );
 }
 
 export default SignIn;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
