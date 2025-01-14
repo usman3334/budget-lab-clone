@@ -24,11 +24,9 @@ const GeneralSettings = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        // Fetch user data from the API without using an auth token
         const response = await axiosInstance.get('accounts/info/', {
           headers: {
-            'X-CSRFToken': 'muyVvZIfzrrCYXM6rez8dCZdCmseFvHMcJ6XKR3cf6OmC46nzLNcan84W7jGszqW', // CSRF Token (if required)
-            // 'Api-Key': 'your_api_key_here', // Uncomment if using an API key
+            'X-CSRFToken': 'muyVvZIfzrrCYXM6rez8dCZdCmseFvHMcJ6XKR3cf6OmC46nzLNcan84W7jGszqW', 
           },
         });
 
